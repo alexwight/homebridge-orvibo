@@ -1,0 +1,22 @@
+{
+  "name": "homebridge-orvibo",
+  "version": "1.0.0",
+  "description": "Homebridge plugin for orbivo devices",
+  "main": "index.js",
+  "dependencies": {
+    "node-orvibo": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  }
+}
