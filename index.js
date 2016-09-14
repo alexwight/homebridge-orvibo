@@ -65,7 +65,6 @@ OrviboAccessory.prototype.subscribe = function() {
     this.orvibo.on("queried", function(device, table) {
           clearInterval(that.queryTimer) // Stop the query timer
           that.log("Queried Orvibo device");
-          console.log(device);
           that.device.state = device.state;
           if(that.callback) {
             that.callback(null, device.state);
